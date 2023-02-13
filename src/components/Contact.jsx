@@ -2,11 +2,10 @@
 
 export default function Contact () {
     return(
-<div className="container my-24 px-6 mx-auto">
-
+<div className="container my-24 px-6 mx-auto" id="contact">
   <section className="mb-32 text-gray-800">
     <div className="block rounded-lg shadow-lg bg-sky-50">
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-center bg-sky-100">
         <div className="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
           <div className="map-container-2 w-full">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11612.31904646705!2d3.4713674!3d43.3125897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba1b5dd76e905%3A0xec564c6f35ee459c!2sPRESTAT&#39;AIR!5e0!3m2!1sfr!2sfr!4v1676047078034!5m2!1sfr!2sfr" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="adress" className="border-0 w-full"></iframe>

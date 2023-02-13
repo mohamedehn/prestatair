@@ -1,7 +1,7 @@
 
 export default function Presentation() {
     return (
-      <div className="overflow-hidden bg-sky-100 py-16 px-6 lg:px-8 xl:py-36">
+      <div className="overflow-hidden bg-sky-100  py-16 px-6 lg:px-8 xl:py-36">
         <div className="mx-auto max-w-max lg:max-w-7xl">
           <div className="relative z-10 mb-8 md:mb-2 md:px-6">
             <div className="max-w-prose text-base lg:max-w-none">
@@ -60,39 +60,15 @@ export default function Presentation() {
               <div className="lg:grid lg:grid-cols-2 lg:gap-6">
                 <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none">
                   <p>
-                    Ultrices ultricies a in odio consequat egestas rutrum. Ut vitae aliquam in ipsum. Duis nullam placerat
-                    cursus risus ultrices nisi, vitae tellus in. Qui non fugiat aut minus aut rerum. Perspiciatis iusto
-                    mollitia iste minima soluta id.
+                    Nous disposons d'un total 10157 intervenants qualifiés mobilisables présents sur toute la France et les DOM -TOM, ce qui nous permet de couvrir l'ensemble des communes. Notre zone d'intervention repose sur un découpage de la France et notre taux de satisfaction est calculé à la suite de notre suivi téléphonique lors de la clôture des dossiers.  
                   </p>
-                  <p>
-                    Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id dignissim
-                    eget. Est augue risus nulla ultrices congue nunc tortor. Eu leo risus porta
-                    integer suspendisse sed sit ligula elit.
-                  </p>
-                  <ol>
-                    <li>Integer varius imperdiet sed interdum felis cras in nec nunc.</li>
-                    <li>Quam malesuada odio ut sit egestas. Elementum at porta vitae.</li>
-                  </ol>
-                  <p>
-                    Amet, eu nulla id molestie quis tortor. Auctor erat justo, sed pellentesque scelerisque interdum
-                    blandit lectus. Nec viverra amet ac facilisis vestibulum. Vestibulum purus nibh ac ultricies congue.
+                  <p className="pt-14">
+                    Nous utilisons le logiciel PRO/CTS, qui nous permet de gérer l'ensemble de nos dossiers depuis un même logiciel, de la prise de mission jusqu'à la facturation du dossier et la paie de l'intervention.La planification est au centre de cet outil ce qui permet à nos chargés d'assistance de gagner en efficacité lors de la mise en place des dossiers et d'accéder rapidement à la disponibilité, aux compétences, et au lieu d'intervention de nos intervenants.
                   </p>
                 </div>
                 <div className="prose prose-lg prose-indigo mt-6 text-gray-500 lg:mt-0">
                   <p>
-                    Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id dignissim
-                    eget. Est augue maecenas risus nulla ultrices congue nunc tortor.
-                  </p>
-                  <p>
-                    Eu leo risus porta integer suspendisse sed sit ligula elit. Elit egestas lacinia sagittis pellentesque
-                    neque dignissim vulputate sodales. Diam sed mauris felis risus, ultricies mauris netus tincidunt.
-                    Mauris sit eu ac tellus nibh non eget sed accumsan. Viverra ac sed venenatis pulvinar elit. Cras diam
-                    quis tincidunt lectus. Non mi vitae, scelerisque felis nisi, netus amet nisl.
-                  </p>
-                  <p>
-                    Eu eu mauris bibendum scelerisque adipiscing et. Justo, elementum consectetur morbi eros, posuere
-                    ipsum tortor. Eget cursus massa sed velit feugiat sed ut. Faucibus eros mauris morbi aliquam nullam.
-                    Scelerisque elementum sit magna ullamcorper dignissim pretium.
+                  Les trois points forts de nos chargés d'assistance sont : l'écoute, l'analyse et la détection des besoins. Le process unique sur lequel nous reposons, est le fruit d'une étroite collaboration entre nos partenaires et donneurs d'ordres. La culture et les valeurs de notre organisme nous permettent d'accroitre notre stratégie et notre positionnement sur le territoire. Si bien que l'Association PRESTAT'AIR s'étend vers une dynamique de progression continue dans ses différents services
                   </p>
                 </div>
               </div>

@@ -10,8 +10,8 @@ import logo from "../assets/logo2.png"
 const navigation = [
   { name: 'Acceuil', href: '#' },
   { name: 'Qui sommes-nous ?', href: '#' },
-  { name: 'Nos prestations', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Nos prestations', href: '#activities' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 const defaultOptions = {
