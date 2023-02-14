@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mohamedehn/prestatair/static/css/main.5a7931e6.css",
+    "main.js": "/mohamedehn/prestatair/static/js/main.cddcd6a8.js",
+    "static/js/787.4248e9ba.chunk.js": "/mohamedehn/prestatair/static/js/787.4248e9ba.chunk.js",
+    "static/media/logo2.png": "/mohamedehn/prestatair/static/media/logo2.9d32caae168ff216a98d.png",
+    "index.html": "/mohamedehn/prestatair/index.html",
+    "main.5a7931e6.css.map": "/mohamedehn/prestatair/static/css/main.5a7931e6.css.map",
+    "main.cddcd6a8.js.map": "/mohamedehn/prestatair/static/js/main.cddcd6a8.js.map",
+    "787.4248e9ba.chunk.js.map": "/mohamedehn/prestatair/static/js/787.4248e9ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a7931e6.css",
+    "static/js/main.cddcd6a8.js"
+  ]
+}
