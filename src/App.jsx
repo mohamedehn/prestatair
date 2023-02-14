@@ -1,8 +1,10 @@
 import './App.css';
 import Activites from './components/Activities';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Presentation from './components/Presentation';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Presentation/>
       <Activites/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
