@@ -1,10 +1,10 @@
 import './App.css';
 import Activites from './components/Activities';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Presentation from './components/Presentation';
-
+import Form from './components/Form';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Hero/>
       <Presentation/>
       <Activites/>
-      <Contact/>
+      {/* <Contact/> */}
+      <Form/>
       <Footer/>
     </div>
   );

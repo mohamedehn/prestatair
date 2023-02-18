@@ -4,7 +4,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Lottie from 'react-lottie'
-import animation from "../animations/99213-mental-wellbeing-seek-help.json"
+import animation from "../animations/75353-cleaner-blue-shirt.json"
 import logo from "../assets/logo2.png"
 
 const navigation = [
@@ -60,9 +60,9 @@ export default function Hero () {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
+                <div className="hidden md:ml-10 md:contents md:space-x-8 md:pr-4">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                    <a key={item.name} href={item.href} className="font-medium text-blue-900 hover:text-gray-900 text-lg">
                       {item.name}
                     </a>
                   ))}
@@ -147,7 +147,7 @@ export default function Hero () {
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3 ">
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3 md:w-full">
       <Lottie options={defaultOptions}/>
       </div>
     </div>
