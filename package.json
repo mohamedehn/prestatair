@@ -1,8 +1,8 @@
 {
   "name": "prestatair",
   "version": "0.1.0",
-  "homepage": "https://github.com/mohamedehn/prestatair/",
   "private": true,
+  "homepage": "https://mohamedehn.github.io/prestatair",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
