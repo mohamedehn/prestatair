@@ -53,7 +53,7 @@ export default function Hero () {
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="inline-flex items-center justify-center rounded-md bg-sky-100 p-2 text-black hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -62,7 +62,7 @@ export default function Hero () {
                 </div>
                 <div className="hidden md:ml-10 md:contents md:space-x-8 md:pr-4">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-blue-900 hover:text-gray-900 text-lg">
+                    <a key={item.name} href={item.href} className="font-medium text-blue-900 hover:text-gray-900 text-lg no-underline">
                       {item.name}
                     </a>
                   ))}
@@ -83,12 +83,12 @@ export default function Hero () {
                 focus
                 className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden"
               >
-                <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
+                <div className="overflow-hidden rounded-lg bg-sky-100 shadow-md ring-1 ring-black ring-opacity-5">
                   <div className="flex items-center justify-between px-5 pt-4">
                     <div>
                       <img
-                        className="h-8 w-auto"
-                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                        className="h-16 w-auto"
+                        src={logo}
                         alt=""
                       />
                     </div>
@@ -104,7 +104,7 @@ export default function Hero () {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900 no-underline"
                       >
                         {item.name}
                       </a>
@@ -129,7 +129,7 @@ export default function Hero () {
                 <div className="rounded-md shadow">
                   <a
                     href="#contact"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-8 py-3 text-base font-medium text-white hover:bg-sky-900 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-8 py-3 text-base font-medium text-white hover:bg-sky-900 md:py-4 md:px-10 md:text-lg no-underline"
                   >
                     Nous contacter
                   </a>
