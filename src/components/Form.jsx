@@ -5,14 +5,14 @@ import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function Form() {
   return (
-    <div className="bg-sky-100">
+    <div className="bg-sky-100" id='contact'>
       <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
         <div className="relative bg-white shadow-xl">
           <h2 className="sr-only">Contactez-nous</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
-            <div className="relative overflow-hidden bg-blue-900 py-10 px-6 sm:px-10 xl:p-12">
+            <div className="relative overflow-hidden bg-sky-600 py-10 px-6 sm:px-10 xl:p-12">
               <div className="pointer-events-none absolute inset-0 sm:hidden" aria-hidden="true">
                 <svg
                   className="absolute inset-0 h-full w-full"
@@ -271,7 +271,7 @@ export default function Form() {
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
-                    className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-blue-900 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                    className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
                   >
                     Envoyer
                   </button>
