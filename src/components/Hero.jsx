@@ -8,8 +8,8 @@ import animation from "../animations/75353-cleaner-blue-shirt.json"
 import logo from "../assets/logo2.png"
 
 const navigation = [
-  { name: 'Acceuil', href: '#' },
-  { name: 'Qui sommes-nous ?', href: '#' },
+  { name: 'Acceuil', href: '#acceuil' },
+  { name: 'Qui sommes-nous ?', href: '#presentation' },
   { name: 'Nos prestations', href: '#activities' },
   { name: 'Contact', href: '#contact' },
 ]
@@ -26,7 +26,7 @@ const defaultOptions = {
 
 export default function Hero () {
   return (
-    <div className="relative overflow-hidden bg-sky-100 h-screen">
+    <div className="relative overflow-hidden bg-sky-100 h-screen" id='acceuil'>
       <div className="mx-auto max-w-7xl">
         <div className="relative z-10 bg-sky-100 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-3xl lg:pb-28 xl:pb-32">
           {/* <svg
@@ -146,9 +146,9 @@ export default function Hero () {
             </div>
           </main>
         </div>
-      </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3 md:w-full">
-      <Lottie options={defaultOptions}/>
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12 md:w-full z-20 md:flex hidden">
+          <Lottie options={defaultOptions}/>
+        </div>
       </div>
     </div>
   )
