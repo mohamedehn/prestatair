@@ -1,17 +1,17 @@
 
 export default function Presentation() {
     return (
-      <div className="overflow-hidden bg-sky-100  py-16 px-6 lg:px-8 xl:py-36" id="presentation">
+      <div className="overflow-hidden bg-[#adccd0]  py-16 px-6 lg:px-8 xl:py-36" id="presentation">
         <div className="mx-auto max-w-max lg:max-w-7xl">
           <div className="relative z-10 mb-8 md:mb-2 md:px-6">
             <div className="max-w-prose text-base lg:max-w-none">
-              <h2 className="font-semibold leading-6 text-sky-600">Une qualité de service reconnu !</h2>
-              <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="font-semibold leading-6 text-gray-900">Une qualité de service reconnu !</h2>
+              <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
                 Moyens mis en oeuvre
               </p>
             </div>
           </div>
-          <div className="relative bg-sky-100">
+          <div className="relative bg-[#adccd0]">
             <svg
               className="absolute top-0 right-0 -mt-20 -mr-20 hidden md:block md:[overflow-anchor:none]"
               width={404}
@@ -56,7 +56,7 @@ export default function Presentation() {
               </defs>
               <rect width={404} height={384} fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
             </svg>
-            <div className="relative md:bg-sky-100 md:p-6">
+            <div className="relative md:bg-[#adccd0] md:p-6">
               <div className="lg:grid lg:grid-cols-2 lg:gap-6">
                 <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none">
                   <p>

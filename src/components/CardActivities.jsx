@@ -1,9 +1,11 @@
 //here we will find a complete list of the activites
 
+import { hover } from '@testing-library/user-event/dist/hover';
 import Card from 'react-bootstrap/Card';
+import jardin from "../assets/jardin.png"
 
 const activities = [
-    {text : 'Entretien de la maison et travaux ménagers'},
+    { text1 : 'Entretien de la maison et travaux ménagers', image : jardin},
     {text : 'Petits travaux de jardinage et bricolage'},
     {text : "Garde d'enfant(s) de plus de 3 ans à domicile. Soutien scolaire ou cours à domicile"},
     {text : "Préparation de repas à domicile (inclus le temps passé aux courses)"},
@@ -21,14 +23,16 @@ const activities = [
   
   export default function CardActivites() {
       return (
-        <div className="bg-sky-100" id="activities">
+        <div className="bg-[#adccd0]" id="activities">
           <div className="mx-auto max-w-7xl py-12 px-6 lg:py-16 lg:px-8">
             <p className="text-center text-lg font-semibold text-black">
             L'Association dispose d'une déclaration Services A la Personne délivrée par la Préfecture de la Savoie pour une durée illimitée dans le temps au niveau national permettant d'intervenir sur toute la France et les DOM TOM pour des prestations de services à la vie quotidienne et de services à la famille. Les activités déclarées par l'Association PRESTAT'AIR sont les suivantes :          
             </p>
             <div className="mt-6 grid gap-0.5 lg:mt-8 sm:block md:flex md:flex-wrap">
               <div className="contents">
-                {
+                <img className='cursor-pointer' src={jardin} alt="/" style={{width : '12rem'}}></img>
+                <p className='opacity-0 hover:opacity-100'>Entretien de la maison et travaux ménagers</p>
+                {/* {
                   activities.map((item)=> (
                     <Card style={{ width: '18rem' }} className="mx-auto cursor-pointer mb-4 hover:bg-sky-200">
                         <Card.Body>
@@ -36,7 +40,7 @@ const activities = [
                         </Card.Body>
                     </Card>
                   ))
-                }
+                } */}
               </div>
             </div>
           </div>

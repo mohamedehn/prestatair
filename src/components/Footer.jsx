@@ -14,7 +14,7 @@ export default function Footer (){
     ]
 
     return (
-        <footer className="text-gray-500 bg-sky-100 px-4 py-5 max-w-screen-xl mx-auto">
+        <footer className="text-gray-500 bg-[#adccd0] px-4 py-5 max-w-screen-xl mx-auto">
             <div className="mt-8 items-center justify-between sm:flex">
                 <ul className="mt-4 sm:mt-0">
                     &copy; 2022 Prestat'air Tout droit réservé.
@@ -31,7 +31,7 @@ export default function Footer (){
                     ))
                 }
                     <li className="hover:text-gray-800 list-none"> 
-                        <a href="https://mohamedehn.github.io/my-portfolio/" className="no-underline text-gray-500">Powered by Digital Comet</a>
+                        <a href="https://mohamedehn.github.io/portfolio/" className="no-underline text-gray-500">Powered by Ehn</a>
                     </li>
                 </ul>
             </div>

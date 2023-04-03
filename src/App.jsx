@@ -11,7 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <div className="App bg-sky-100 overflow-hidden">
+    <div className="App bg-[#adccd0] overflow-hidden">
       <Hero/>
       <Presentation/>
       {/* <Activites/> */}

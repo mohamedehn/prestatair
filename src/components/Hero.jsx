@@ -5,7 +5,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Lottie from 'react-lottie'
 import animation from "../animations/75353-cleaner-blue-shirt.json"
-import logo from "../assets/logo2.png"
+import logo from "../assets/logoNew.png"
 
 const navigation = [
   { name: 'Acceuil', href: '#acceuil' },
@@ -26,18 +26,18 @@ const defaultOptions = {
 
 export default function Hero () {
   return (
-    <div className="relative overflow-hidden bg-sky-100 h-screen" id='acceuil'>
+    <div className="relative overflow-hidden bg-[#adccd0] h-screen" id='acceuil'>
       <div className="mx-auto max-w-7xl">
-        <div className="relative z-10 bg-sky-100 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-3xl lg:pb-28 xl:pb-32">
-          {/* <svg
-            className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
+        <div className="relative z-10 bg-[#adccd0] pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-3xl lg:pb-28 xl:pb-32">
+          <svg
+            className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-[#9aabb2] lg:block"
             fill="currentColor"
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
             aria-hidden="true"
           >
             <polygon points="50,0 100,0 50,100 0,100" />
-          </svg> */}
+          </svg>
 
           <Popover>
             <div className="relative px-6 pt-6 lg:px-8">
@@ -53,7 +53,7 @@ export default function Hero () {
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="inline-flex items-center justify-center rounded-md bg-sky-100 p-2 text-black hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="inline-flex items-center justify-center rounded-md bg-[#adccd0] p-2 text-black hover:bg-[#225a65] hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#225a65]">
                         <span className="sr-only">Open main menu</span>
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -62,7 +62,7 @@ export default function Hero () {
                 </div>
                 <div className="hidden md:ml-10 md:contents md:space-x-8 md:pr-4">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-blue-900 hover:text-gray-900 text-lg no-underline">
+                    <a key={item.name} href={item.href} className="font-medium text-[#3d4346] hover:text-gray-900 text-lg no-underline">
                       {item.name}
                     </a>
                   ))}
@@ -83,7 +83,7 @@ export default function Hero () {
                 focus
                 className="absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden"
               >
-                <div className="overflow-hidden rounded-lg bg-sky-100 shadow-md ring-1 ring-black ring-opacity-5">
+                <div className="overflow-hidden rounded-lg bg-[#adccd0] shadow-md ring-1 ring-black ring-opacity-5">
                   <div className="flex items-center justify-between px-5 pt-4">
                     <div>
                       <img
@@ -93,7 +93,7 @@ export default function Hero () {
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="inline-flex items-center justify-center rounded-md bg-[#adccd0] p-2 text-gray-400 hover:bg-[#225a65] hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#225a65]">
                         <span className="sr-only">Close main menu</span>
                         <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -104,7 +104,7 @@ export default function Hero () {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900 no-underline"
+                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-[#9aabb2] hover:text-gray-900 no-underline"
                       >
                         {item.name}
                       </a>
@@ -119,7 +119,7 @@ export default function Hero () {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Association Prestat'air</span>{' '}
-                <span className="block text-sky-600 xl:inline"><br/>Un nouveau souffle dans votre quotidien.</span>
+                <span className="block text-[#225a65] xl:inline"><br/>Un nouveau souffle dans votre quotidien.</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
               Association Prestat'Air, spécialisée dans les services à la personne recherche pour répondre aux besoins de ces clients, des aides 
@@ -129,24 +129,16 @@ export default function Hero () {
                 <div className="rounded-md shadow">
                   <a
                     href="#contact"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-8 py-3 text-base font-medium text-white hover:bg-sky-900 md:py-4 md:px-10 md:text-lg no-underline"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#225a65] px-8 py-3 text-base font-medium text-white hover:bg-[#9aabb2] md:py-4 md:px-10 md:text-lg no-underline"
                   >
                     Nous contacter
-                  </a>
+                  </a> 
                 </div>
-                {/* <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg"
-                  >
-                    Live demo
-                  </a>
-                </div> */}
               </div>
             </div>
           </main>
         </div>
-        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12 md:w-full z-20 md:flex hidden">
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-5/12 md:w-[90%] z-20 md:flex hidden">
           <Lottie options={defaultOptions}/>
         </div>
       </div>
