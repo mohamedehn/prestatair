@@ -7,7 +7,7 @@ export default function Presentation() {
             <div className="max-w-prose text-base lg:max-w-none">
               <h2 className="font-semibold leading-6 text-gray-900">Une qualité de service reconnu !</h2>
               <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
-                Moyens mis en oeuvre
+                Présentation de notre structure
               </p>
             </div>
           </div>
@@ -57,18 +57,16 @@ export default function Presentation() {
               <rect width={404} height={384} fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
             </svg>
             <div className="relative md:bg-[#adccd0] md:p-6">
-              <div className="lg:grid lg:grid-cols-2 lg:gap-6">
+              <div className="lg:grid lg:grid-cols-1 lg:gap-6">
                 <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none">
-                  <p>
-                    Nous disposons d'un total 10157 intervenants qualifiés mobilisables présents sur toute la France et les DOM -TOM, ce qui nous permet de couvrir l'ensemble des communes. Notre zone d'intervention repose sur un découpage de la France et notre taux de satisfaction est calculé à la suite de notre suivi téléphonique lors de la clôture des dossiers.  
+                  <p> L'association PRESTAT'AIR a été créée en Août 2019 par Madame EGGERMONT Anita, agissant en tant que Présidente. 
+                    Nos intervenant(e)s couvrent le territoire national.  
                   </p>
-                  <p className="pt-14">
-                    Nous utilisons le logiciel PRO/CTS, qui nous permet de gérer l'ensemble de nos dossiers depuis un même logiciel, de la prise de mission jusqu'à la facturation du dossier et la paie de l'intervention.La planification est au centre de cet outil ce qui permet à nos chargés d'assistance de gagner en efficacité lors de la mise en place des dossiers et d'accéder rapidement à la disponibilité, aux compétences, et au lieu d'intervention de nos intervenants.
+                  <p className="pt-14"> L’équipe administrative se compose de Madame RODRIGUEZ Julie, Responsable des Services et Madame EGGERMONT Alisée, Responsable Qualité Conformité. Le service RH est composé d’un Référent et d’une Assistante. L’équipe production est composée de sept chargés d’assistance et de deux chargés d’accueil. Le service qualité se compose de deux chargés de suivi.  
                   </p>
                 </div>
                 <div className="prose prose-lg prose-indigo mt-6 text-gray-500 lg:mt-0">
-                  <p>
-                  Les trois points forts de nos chargés d'assistance sont : l'écoute, l'analyse et la détection des besoins. Le process unique sur lequel nous reposons, est le fruit d'une étroite collaboration entre nos partenaires et donneurs d'ordres. La culture et les valeurs de notre organisme nous permettent d'accroitre notre stratégie et notre positionnement sur le territoire. Si bien que l'Association PRESTAT'AIR s'étend vers une dynamique de progression continue dans ses différents services
+                  <p> L’association PRESTAT'AIR, basée à Agde (34), a la particularité d'être organisée de façon centralisée et dispose de près de 6500 intervenants sur l'ensemble du territoire français.
                   </p>
                 </div>
               </div>

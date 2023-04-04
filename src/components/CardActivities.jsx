@@ -1,11 +1,11 @@
 //here we will find a complete list of the activites
 
-import { hover } from '@testing-library/user-event/dist/hover';
+// import { hover } from '@testing-library/user-event/dist/hover';
 import Card from 'react-bootstrap/Card';
-import jardin from "../assets/jardin.png"
+// import jardin from "../assets/jardin.png"
 
 const activities = [
-    { text1 : 'Entretien de la maison et travaux ménagers', image : jardin},
+    {text : 'Entretien de la maison et travaux ménagers'},
     {text : 'Petits travaux de jardinage et bricolage'},
     {text : "Garde d'enfant(s) de plus de 3 ans à domicile. Soutien scolaire ou cours à domicile"},
     {text : "Préparation de repas à domicile (inclus le temps passé aux courses)"},
@@ -30,9 +30,9 @@ const activities = [
             </p>
             <div className="mt-6 grid gap-0.5 lg:mt-8 sm:block md:flex md:flex-wrap">
               <div className="contents">
-                <img className='cursor-pointer' src={jardin} alt="/" style={{width : '12rem'}}></img>
-                <p className='opacity-0 hover:opacity-100'>Entretien de la maison et travaux ménagers</p>
-                {/* {
+                {/* <img className='cursor-pointer' src={jardin} alt="/" style={{width : '12rem'}}></img> */}
+                {/* <p className='opacity-0 hover:opacity-100'>Entretien de la maison et travaux ménagers</p> */}
+                {
                   activities.map((item)=> (
                     <Card style={{ width: '18rem' }} className="mx-auto cursor-pointer mb-4 hover:bg-sky-200">
                         <Card.Body>
@@ -40,7 +40,7 @@ const activities = [
                         </Card.Body>
                     </Card>
                   ))
-                } */}
+                }
               </div>
             </div>
           </div>
