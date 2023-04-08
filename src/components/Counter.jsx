@@ -25,18 +25,15 @@ const Counter = ({ start, end, duration }) => {
 
 const DataDisplay = () => {
   return (
-    <div className='md:flex block justify-around mx-auto prose prose-lg prose-indigo text-gray-900 sm:text-lg md:mt-5 
-    md:text-xl md:space-x-10'>
-        <div className='relative flex items-center justify-center h-[33px] md:w-52 w-48 shadow-xl shadow-gray-400 rounded-xl p-4 group 
-        bg-gradient-to-r from-[#9aabb2] to-[#225a65]'>
+    <div className='md:flex block md:justify-around justify-center mx-auto prose prose-lg prose-indigo text-white sm:text-2xl md:mt-5 
+     md:space-x-10 bg-[#225a65] md:h-[100px] items-center h-[150px]'>
+        <div className='relative flex items-center justify-center h-[33px] md:w-48 w-full shadow-gray-400 p-4 group mx-auto'>
             <Counter start={0} end={2055} duration={900} /> <span className='ml-2'>salariés</span> 
         </div>
-        <div className='relative flex items-center justify-center h-[33px] md:w-52 w-48 shadow-xl shadow-gray-400 rounded-xl p-4 group 
-        bg-gradient-to-r from-[#9aabb2] to-[#225a65]'>
+        <div className='relative flex items-center justify-center h-[33px] md:w-48 w-full shadow-gray-400 p-4 group mx-auto'>
             <Counter start={0} end={374} duration={900} /> <span className='ml-2'>clients</span> 
         </div>
-        <div className='relative flex items-center justify-center h-[33px] md:w-[19rem] w-48 shadow-xl shadow-gray-400 rounded-xl p-4 group 
-        bg-gradient-to-r from-[#9aabb2] to-[#225a65]'>
+        <div className='relative flex items-center justify-center h-[33px] md:w-[22rem] w-full shadow-gray-400 p-4 group mx-auto'>
             <Counter start={0} end={84.4} duration={15000} /><span className='ml-2'>% de satisfaction client</span> 
         </div>
     </div>
