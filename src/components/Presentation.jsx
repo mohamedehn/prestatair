@@ -59,7 +59,7 @@ export default function Presentation() {
             <div className="relative md:bg-[#adccd0] md:p-6">
               <div className="lg:grid lg:grid-cols-1 lg:gap-6">
                 <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 
-                md:text-xl lg:mx-0">
+                md:text-xl lg:mx-0 text-justify">
                   <p> L’association, créée par Anita EGGERMONT (Présidente) en 2019, intervient sur tout le territoire national. 
                       Afin de répondre à vos besoins, notre équipe administrative se renforce de jour en jour. 
                   </p>

@@ -10,7 +10,7 @@ export default function Form() {
     <div className="bg-[#adccd0]" id='contact'>
       <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
         <div className="relative bg-white shadow-xl">
-          <h2 className="sr-only ">Contactez-nous</h2>
+          <h2 className="sr-only ">Contactez&#8209;nous</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
@@ -108,10 +108,11 @@ export default function Form() {
                   </defs>
                 </svg>
               </div>
-              <h3 className="text-lg font-medium text-gray-900">Contactez nous</h3>
-              <p className="mt-6 max-w-3xl text-base text-gray-900">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor
-                lacus arcu.
+              <h3 className="text-lg font-medium text-gray-900">Contactez-nous</h3>
+              <p className="mt-6 max-w-3xl text-base text-gray-900 text-justify">
+                Nos services sont disponibles pour vous répondre du lundi au vendredi, de 8h30 à 12h et de 13h30 à 17h. 
+                Si vous souhaitez effectuer une candidature spontanée suite à une annonce sur l’un de nos sites partenaires, 
+                nous vous remercions de stipuler le numéro d’offre dans l’objet de votre formulaire de contact. 
               </p>
               <dl className="mt-8 space-y-6">
                 <dt>
@@ -119,14 +120,18 @@ export default function Form() {
                 </dt>
                 <dd className="flex text-base text-gray-900">
                   <PhoneIcon className="h-6 w-6 flex-shrink-0 text-gray-900" aria-hidden="true" />
-                  <span className="ml-3">+33</span>
+                  <span className="ml-3">04 30 41 84 90</span>
                 </dd>
                 <dt>
                   <span className="sr-only">Email</span>
                 </dt>
                 <dd className="flex text-base text-gray-900">
                   <EnvelopeIcon className="h-6 w-6 flex-shrink-0 text-gray-900" aria-hidden="true" />
-                  <span className="ml-3">contact@</span>
+                  <span className="ml-3">
+                    <a href="maito:contact@association-prestatair.com" className='no-underline text-gray-900'>
+                      contact@association-prestatair.com
+                    </a>
+                  </span>
                 </dd>
               </dl>
               <div>
@@ -239,7 +244,7 @@ export default function Form() {
                 </div>
                 <div className="sm:col-span-2">
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-900">
-                    Sujet
+                    Objet
                   </label>
                   <div className="mt-1">
                     <input

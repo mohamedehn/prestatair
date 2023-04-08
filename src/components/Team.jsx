@@ -22,7 +22,7 @@ const people = [
         imageUrl: julie,
       },
     {
-        name: 'Alisee Eggermont',
+        name: 'Alisee',
         role: 'Responsable Qualité Conformité',
         imageUrl: alisee,
       },
@@ -97,7 +97,7 @@ const people = [
     return (
       <div className="bg-[#adccd0] py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
+          <div className="px-6 max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Notre équipe</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
             </p>
@@ -107,7 +107,7 @@ const people = [
             className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
           >
             {people.map((person) => (
-              <li key={person.name} className="cursor-pointer hover:scale-120 ease-in duration-300">
+              <li key={person.name} className="cursor-pointer hover:scale-110 ease-in duration-300">
                 <img className="mx-auto h-24 w-24 rounded-full" src={person.imageUrl} alt="" />
                 <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-sm leading-6 text-gray-600">{person.role}</p>

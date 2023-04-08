@@ -7,6 +7,7 @@ import Display from './components/Display';
 import ScrollToTop from './components/ScrollToTop';
 import DisplayActivities from './components/DisplayActivities';
 import Team from './components/Team';
+import DataDisplay from './components/Counter';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <Presentation/>
       <Team/>
+      <DataDisplay/>
       <DisplayActivities/>
       <Display/>
       <Form/>

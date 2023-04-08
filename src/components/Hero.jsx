@@ -121,7 +121,7 @@ export default function Hero () {
                 <span className="block xl:inline">Association Prestat'air</span>{' '}
                 <span className="block text-[#225a65] xl:inline"><br/>Un nouveau souffle dans votre quotidien.</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0 text-justify">
                 L’association Prestat’air, spécialisée dans les services à la personne, est disponible pour répondre aux besoins de ses clients, 
                 ainsi qu’à ceux de ses aides à domicile. Notre structure, basée à Agde, intervient, pour vous, sur tout le territoire national.
               </p>
