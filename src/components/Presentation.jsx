@@ -6,7 +6,7 @@ export default function Presentation() {
           <div className="relative z-10 mb-8 md:mb-2 md:px-6">
             <div className="max-w-prose text-base lg:max-w-none">
               <h2 className="font-semibold leading-6 text-gray-900">Une qualité de service reconnu !</h2>
-              <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
+              <p className="py-2 mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
                 Présentation de notre structure
               </p>
             </div>
@@ -58,15 +58,19 @@ export default function Presentation() {
             </svg>
             <div className="relative md:bg-[#adccd0] md:p-6">
               <div className="lg:grid lg:grid-cols-1 lg:gap-6">
-                <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none">
-                  <p> L'association PRESTAT'AIR a été créée en Août 2019 par Madame EGGERMONT Anita, agissant en tant que Présidente. 
-                    Nos intervenant(e)s couvrent le territoire national.  
+                <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 
+                md:text-xl lg:mx-0">
+                  <p> L’association, créée par Anita EGGERMONT (Présidente) en 2019, intervient sur tout le territoire national. 
+                      Afin de répondre à vos besoins, notre équipe administrative se renforce de jour en jour. 
                   </p>
-                  <p className="pt-14"> L’équipe administrative se compose de Madame RODRIGUEZ Julie, Responsable des Services et Madame EGGERMONT Alisée, Responsable Qualité Conformité. Le service RH est composé d’un Référent et d’une Assistante. L’équipe production est composée de sept chargés d’assistance et de deux chargés d’accueil. Le service qualité se compose de deux chargés de suivi.  
+                  <p className=""> Julie manage nos assistants ressources humaines, nos chargées d’accueil ainsi que nos chargés d’assistance. 
+                  Alisée assure la conformité du service qualité, où nous retrouvons nos chargés de suivi.   
                   </p>
                 </div>
-                <div className="prose prose-lg prose-indigo mt-6 text-gray-500 lg:mt-0">
-                  <p> L’association PRESTAT'AIR, basée à Agde (34), a la particularité d'être organisée de façon centralisée et dispose de près de 6500 intervenants sur l'ensemble du territoire français.
+                <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 
+                md:text-xl lg:mx-0">
+                  <p> Nous avons la particularité d'être organisé de façon centralisée et nous collaborons avec près de 6500 intervenants sur 
+                    l'ensemble du territoire français.
                   </p>
                 </div>
               </div>

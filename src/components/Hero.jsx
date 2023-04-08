@@ -122,8 +122,8 @@ export default function Hero () {
                 <span className="block text-[#225a65] xl:inline"><br/>Un nouveau souffle dans votre quotidien.</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-              Association Prestat'Air, spécialisée dans les services à la personne recherche pour répondre aux besoins de ces clients, des aides 
-              à domicile, aides ménagère.Notre structure basée sur Agde, intervient sur tout le territoire national.
+                L’association Prestat’air, spécialisée dans les services à la personne, est disponible pour répondre aux besoins de ses clients, 
+                ainsi qu’à ceux de ses aides à domicile. Notre structure, basée à Agde, intervient, pour vous, sur tout le territoire national.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">

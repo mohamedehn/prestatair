@@ -5,13 +5,14 @@ import jardin from "../assets/jardin.png"
 
 const DisplayActivities = () =>{
     return(
-        <div className="w-full sm:pt-[50px]" id="projects">
+        <div className="w-full sm:pt-[50px]" id="activities">
             <div className="max-w-[1240px] mx-auto px-2 py-16">
-                <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
+                <div className="mt-2 text-2xl font-semibold leading-6 tracking-tight text-[#225a65] sm:text-4xl">
                 Nous disposons d'une déclaration Services à la personne et celle-ci nous permet d'intervenir sur tout le territoire national 
                 pour des prestations de services à la vie quotidienne et de services à la famille.
-                <br/>Les activités déclarées par l'Association PRESTAT'AIR sont les suivantes : 
-                </p>
+                <p className="mt-2 py-14 text-2xl font-semibold leading-6 tracking-tight text-gray-900 sm:text-4xl">Les activités déclarées 
+                par l'Association PRESTAT'AIR sont les suivantes : </p> 
+                </div>
                 <div className="grid md:grid-cols-3 gap-8">
                     <Activities activities="Entretien de la maison et travaux ménagers" img={jardin} />
                     <Activities activities="Petits travaux de jardinage et bricolage" img={jardin} />
