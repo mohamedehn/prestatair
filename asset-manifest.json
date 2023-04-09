@@ -1,17 +1,38 @@
 {
   "files": {
-    "main.css": "/prestatair/static/css/main.c28ab453.css",
-    "main.js": "/prestatair/static/js/main.397d950f.js",
+    "main.css": "/prestatair/static/css/main.acf3c9d6.css",
+    "main.js": "/prestatair/static/js/main.318bdbc6.js",
     "static/js/787.4248e9ba.chunk.js": "/prestatair/static/js/787.4248e9ba.chunk.js",
     "static/media/logoNew.png": "/prestatair/static/media/logoNew.d3c778e7e97c16c25b6a.png",
-    "static/media/jardin.png": "/prestatair/static/media/jardin.8e84d061417e8516ac88.png",
+    "static/media/alisee.png": "/prestatair/static/media/alisee.4d6ed217aa278e881a38.png",
+    "static/media/marie.png": "/prestatair/static/media/marie.7567562886d1bcffcd7c.png",
+    "static/media/julie.png": "/prestatair/static/media/julie.461feff81b74df3fe74b.png",
+    "static/media/mathieu.png": "/prestatair/static/media/mathieu.40cdd294875ec2c691f1.png",
+    "static/media/julia.png": "/prestatair/static/media/julia.74a7cea1217b6a204819.png",
+    "static/media/anita.png": "/prestatair/static/media/anita.05e507e3cbee5b5bf4d4.png",
+    "static/media/gwenaelle.png": "/prestatair/static/media/gwenaelle.9ba8775bdd53e96ef079.png",
+    "static/media/alyson.png": "/prestatair/static/media/alyson.b45c77b21f260f36af95.png",
+    "static/media/mr.png": "/prestatair/static/media/mr.6bc9a660c64cb0363f4e.png",
+    "static/media/clients.png": "/prestatair/static/media/clients.91c6c0cff1f01ac3d876.png",
+    "static/media/chef.png": "/prestatair/static/media/chef.df817f07a96b389e9b3e.png",
+    "static/media/jardinage.png": "/prestatair/static/media/jardinage.1392e51b9a0ad3a4199f.png",
+    "static/media/courses.png": "/prestatair/static/media/courses.4f178d70947167113787.png",
+    "static/media/chien.png": "/prestatair/static/media/chien.9dac70e427727584123c.png",
+    "static/media/devoirs.png": "/prestatair/static/media/devoirs.9c4f30fe3933fe8ae1c4.png",
+    "static/media/garde.png": "/prestatair/static/media/garde.4045e95cc3ac8486454e.png",
+    "static/media/voiture.png": "/prestatair/static/media/voiture.3fe029e8495eba9b99aa.png",
+    "static/media/marche.png": "/prestatair/static/media/marche.aa06923cc82df57b36d3.png",
+    "static/media/renovation.png": "/prestatair/static/media/renovation.c434e3178a76d4e9f218.png",
+    "static/media/menage.png": "/prestatair/static/media/menage.d4ef75df84e75c2afb39.png",
+    "static/media/repasser.png": "/prestatair/static/media/repasser.224d3d7a5769e4840f24.png",
+    "static/media/enfants.png": "/prestatair/static/media/enfants.5cb30cd84d8451abc304.png",
     "index.html": "/prestatair/index.html",
-    "main.c28ab453.css.map": "/prestatair/static/css/main.c28ab453.css.map",
-    "main.397d950f.js.map": "/prestatair/static/js/main.397d950f.js.map",
+    "main.acf3c9d6.css.map": "/prestatair/static/css/main.acf3c9d6.css.map",
+    "main.318bdbc6.js.map": "/prestatair/static/js/main.318bdbc6.js.map",
     "787.4248e9ba.chunk.js.map": "/prestatair/static/js/787.4248e9ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c28ab453.css",
-    "static/js/main.397d950f.js"
+    "static/css/main.acf3c9d6.css",
+    "static/js/main.318bdbc6.js"
   ]
 }
