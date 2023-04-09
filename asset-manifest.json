@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prestatair/static/css/main.acf3c9d6.css",
-    "main.js": "/prestatair/static/js/main.318bdbc6.js",
+    "main.js": "/prestatair/static/js/main.52ce178d.js",
     "static/js/787.4248e9ba.chunk.js": "/prestatair/static/js/787.4248e9ba.chunk.js",
     "static/media/logoNew.png": "/prestatair/static/media/logoNew.d3c778e7e97c16c25b6a.png",
     "static/media/alisee.png": "/prestatair/static/media/alisee.4d6ed217aa278e881a38.png",
@@ -28,11 +28,11 @@
     "static/media/enfants.png": "/prestatair/static/media/enfants.5cb30cd84d8451abc304.png",
     "index.html": "/prestatair/index.html",
     "main.acf3c9d6.css.map": "/prestatair/static/css/main.acf3c9d6.css.map",
-    "main.318bdbc6.js.map": "/prestatair/static/js/main.318bdbc6.js.map",
+    "main.52ce178d.js.map": "/prestatair/static/js/main.52ce178d.js.map",
     "787.4248e9ba.chunk.js.map": "/prestatair/static/js/787.4248e9ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acf3c9d6.css",
-    "static/js/main.318bdbc6.js"
+    "static/js/main.52ce178d.js"
   ]
 }
