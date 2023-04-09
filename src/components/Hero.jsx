@@ -10,6 +10,7 @@ import logo from "../assets/logoNew.png"
 const navigation = [
   { name: 'Acceuil', href: '#acceuil' },
   { name: 'Qui sommes-nous ?', href: '#presentation' },
+  { name: 'Notre équipe', href: '#team' },
   { name: 'Nos prestations', href: '#activities' },
   { name: 'Contact', href: '#contact' },
 ]
@@ -26,9 +27,9 @@ const defaultOptions = {
 
 export default function Hero () {
   return (
-    <div className="relative overflow-hidden bg-[#adccd0] h-screen" id='acceuil'>
+    <div className="relative overflow-hidden bg-[#adccd0] h-screen" id='accueil'>
       <div className="mx-auto max-w-7xl">
-        <div className="relative z-10 bg-[#adccd0] pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-3xl lg:pb-28 xl:pb-32">
+        <div className="relative z-10 bg-[#adccd0] pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-[50rem] lg:pb-28 xl:pb-32">
           <svg
             className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-[#9aabb2] lg:block"
             fill="currentColor"
@@ -129,7 +130,8 @@ export default function Hero () {
                 <div className="rounded-md shadow">
                   <a
                     href="#contact"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#225a65] px-8 py-3 text-base font-medium text-white hover:bg-[#9aabb2] md:py-4 md:px-10 md:text-lg no-underline"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#225a65] px-8 py-3 text-base 
+                    font-medium text-white hover:bg-[#9aabb2] md:py-4 md:px-10 md:text-lg no-underline"
                   >
                     Nous contacter
                   </a> 

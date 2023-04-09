@@ -68,7 +68,7 @@ export default function Presentation() {
                   </p>
                 </div>
                 <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 
-                md:text-xl lg:mx-0">
+                md:text-xl lg:mx-0 text-justify">
                   <p> Nous avons la particularité d'être organisé de façon centralisée et nous collaborons avec près de 6500 intervenants sur 
                     l'ensemble du territoire français.
                   </p>

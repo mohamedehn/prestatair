@@ -22,7 +22,7 @@ const people = [
         imageUrl: julie,
       },
     {
-        name: 'Alisee',
+        name: 'Alisée',
         role: 'Responsable Qualité Conformité',
         imageUrl: alisee,
       },
@@ -95,7 +95,7 @@ const people = [
   
   export default function Team() {
     return (
-      <div className="bg-[#adccd0] py-24">
+      <div className="bg-[#adccd0] py-24" id="team">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="px-6 max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Notre équipe</h2>
@@ -104,7 +104,8 @@ const people = [
           </div>
           <ul
             role="listitem"
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
+            className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 
+            lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6 pl-0"
           >
             {people.map((person) => (
               <li key={person.name} className="cursor-pointer hover:scale-110 ease-in duration-300">
