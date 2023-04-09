@@ -8,8 +8,14 @@ import ScrollToTop from './components/ScrollToTop';
 import DisplayActivities from './components/DisplayActivities';
 import Team from './components/Team';
 import DataDisplay from './components/Counter';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
+
   return (
     <div className="App bg-[#adccd0] overflow-hidden">
       <Hero/>
