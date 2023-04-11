@@ -33,7 +33,7 @@ const people = [
     },
     {
         name: 'Gwenaelle',
-        role: 'Assistant RH',
+        role: 'Assistante RH',
         imageUrl: gwen,
     },
     {
@@ -48,7 +48,7 @@ const people = [
     },
     {
         name: 'Mathieu',
-        role: "Chargée suivi",
+        role: "Chargé suivi",
         imageUrl: mathieu,
     },
     {
@@ -73,7 +73,7 @@ const people = [
     },
     {
         name: 'Reynald',
-        role: "Chargée d'assistance",
+        role: "Chargé d'assistance",
         imageUrl: mr,
     },
     {
@@ -88,7 +88,7 @@ const people = [
     },
     {
         name: 'Remy',
-        role: "Chargée d'assistance",
+        role: "Chargé d'assistance",
         imageUrl: mr,
     },
   ]

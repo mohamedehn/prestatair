@@ -22,11 +22,11 @@ const DisplayActivities = () =>{
         <div className="w-full sm:pt-[50px]" id="activities">
             <div className="max-w-[1240px] mx-auto px-2 py-16">
                 <div className="mt-2 text-2xl font-semibold leading-6 tracking-tight text-[#225a65] sm:text-4xl pb-24">
-                    Nous vous proposons les prestations suivantes 
+                    Nous vous proposons les prestations suivantes :
                 {/* <p className="mt-2 py-14 text-2xl font-semibold leading-6 tracking-tight text-gray-900 sm:text-4xl">Les activités déclarées 
                 par l'Association PRESTAT'AIR sont les suivantes : </p>  */}
                 </div>
-                <div className="grid md:grid-cols-5 md:gap-8 gap-32 object-cover">
+                <div className="block md:flex justify-between flex-wrap md:gap-10 gap-32">
                     <Activities activities="Entretien de la maison" img={menage} />
                     <Activities activities="Repassage à domicile" img={repassage} />
                     <Activities activities="Petits travaux de jardinage" img={jardinage} />
@@ -48,3 +48,5 @@ const DisplayActivities = () =>{
 }
 
 export default DisplayActivities;
+
+//grid md:grid-cols-5 md:gap-10 gap-32 object-cover

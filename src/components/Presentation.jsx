@@ -2,14 +2,14 @@
 export default function Presentation() {
     return (
       <div className="overflow-hidden bg-[#adccd0]  py-16 px-6 lg:px-8 xl:py-36" id="presentation">
-        <div className="mx-auto max-w-max lg:max-w-7xl">
-          <div className="relative z-10 mb-8 md:mb-2 md:px-6">
-            <div className="max-w-prose text-base lg:max-w-none">
+        <div className="max-w-prose text-base lg:max-w-none sm:pb-[65px]">
               <h2 className="font-semibold leading-6 text-gray-900">Une qualité de service reconnu !</h2>
-              <p className="py-2 mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
+              <p className="py-4 mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
                 Présentation de notre structure
               </p>
             </div>
+        <div className="mx-auto max-w-max lg:max-w-7xl">
+          <div className="relative z-10 mb-8 md:mb-2 md:px-6">
           </div>
           <div className="relative bg-[#adccd0]">
             <svg

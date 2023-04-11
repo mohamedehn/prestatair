@@ -261,7 +261,7 @@ export default function Form() {
                       Message
                     </label>
                     <span id="message-max" className="text-sm text-gray-500">
-                      Max. 500 charactères
+                      Max. 500 caractères
                     </span>
                   </div>
                   <div className="mt-1">

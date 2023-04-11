@@ -118,16 +118,16 @@ function Mentions() {
                     <p className='text-gray-900 font-semibold'>2 - PRESTATAIRES</p>
                     <p>
                         Création / Conception / Développement : <br/>
-                        Nom entreprise et adresse : <br/>
+                        Nom entreprise : Coding Corp <br/>
                         Tél. : numéro <br/> 
                         Email : contact@nomentreprise.fr <br/>
-                        Web : www.site.fr <br/>
-                        Hébergement : Nom
+                        Web : www.codingcorp.fr <br/>
+                        Hébergement : Hostinger
                     </p>
                   </div>
                   <div>
                     <p className='text-gray-900 font-semibold flex mx-auto w-auto justify-center' id='politique'>
-                        POLITIQUE DE CONFIDENTIALITÉ - MEMBRE FEDESAP
+                        POLITIQUE DE CONFIDENTIALITÉ
                     </p>
                     <p>
                         Les internautes accédant au site www.nomentreprise.fr peuvent être amenés à fournir des informations nominatives ou 
