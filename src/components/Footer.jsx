@@ -14,7 +14,7 @@ export default function Footer (){
     ]
 
     return (
-        <footer className="text-gray-500 bg-[#adccd0] px-4 py-5 max-w-screen-xl mx-auto">
+        <footer className="text-gray-500 bg-[#adccd0] px-4 max-w-screen-xl mx-auto">
             <div className="mt-8 items-center justify-between sm:flex">
                 <ul className="mt-4 sm:mt-0">
                     &copy; 2023 Prestat'air Tout droit réservé.

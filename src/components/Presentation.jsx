@@ -63,8 +63,11 @@ export default function Presentation() {
                   <p> L’association, créée par Anita EGGERMONT (Présidente) en 2019, intervient sur tout le territoire national. 
                       Afin de répondre à vos besoins, notre équipe administrative se renforce de jour en jour. 
                   </p>
-                  <p className=""> Julie manage nos assistants ressources humaines, nos chargées d’accueil ainsi que nos chargés d’assistance. 
-                  Alisée assure la conformité du service qualité, où nous retrouvons nos chargés de suivi.   
+                </div>
+                <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 
+                md:text-xl lg:mx-0 text-justify">
+                  <p> Julie manage nos assistants ressources humaines, nos chargées d’accueil ainsi que nos chargés d’assistance. 
+                  Alisée assure la conformité du service qualité, où nous retrouvons nos chargés de suivi.  
                   </p>
                 </div>
                 <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 

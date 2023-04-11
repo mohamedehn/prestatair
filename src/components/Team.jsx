@@ -47,7 +47,7 @@ const people = [
         imageUrl: julia,
     },
     {
-        name: 'Mathieu',
+        name: 'Matthieu',
         role: "Chargé suivi",
         imageUrl: mathieu,
     },
@@ -98,7 +98,7 @@ const people = [
       <div className="bg-[#adccd0] py-24" id="team">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="px-6 max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Notre équipe</h2>
+            <h2 className="py-4 mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">Notre équipe</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
             </p>
           </div>
