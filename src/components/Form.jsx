@@ -12,7 +12,7 @@ export default function Form() {
         <div className="relative bg-white shadow-xl">
           <h2 className="sr-only ">Contactez&#8209;nous</h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 h-[720px]">
+          <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
             <div className="relative overflow-hidden bg-[#9aabb2] py-10 px-6 sm:px-10 xl:p-12">
               <div className="pointer-events-none absolute inset-0 sm:hidden" aria-hidden="true">
@@ -136,11 +136,11 @@ export default function Form() {
               </dl>
               <div>
               <div className="map-container-2 w-full">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11612.31904646705!2d3.4713674!3d43.3125897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba1b5dd76e905%3A0xec564c6f35ee459c!2sPRESTAT&#39;AIR!5e0!3m2!1sfr!2sfr!4v1676047078034!5m2!1sfr!2sfr" 
-          width="600" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="adress" className="border-0 w-full"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11612.31904646705!2d3.4713674!3d43.3125897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba1b5dd76e905%3A0xec564c6f35ee459c!2sPRESTAT&#39;AIR!5e0!3m2!1sfr!2sfr!4v1676047078034!5m2!1sfr!2sfr" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="adress" className="border-0 w-full"></iframe>
           </div>
               </div>
-              {/* <ul role="list" className="mt-8 flex space-x-12">
+              {/* Code below is in order to put some icons like FB or Twitter and to put link on it
+              <ul role="list" className="mt-8 flex space-x-12">
                 <li>
                   <a className="text-indigo-200 hover:text-indigo-100" href="#">
                     <span className="sr-only">Facebook</span>
@@ -180,7 +180,7 @@ export default function Form() {
             {/* Contact form */}
             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-lg font-medium text-gray-900">Ecrivez-nous un message</h3>
-              <form action="https://formsubmit.co/mohamed.ebarhmatin@yahoo.fr" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form action="https://formsubmit.co/contact@association-prestatair.com" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                 <div>
                   <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
                     Prénom

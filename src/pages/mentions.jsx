@@ -119,7 +119,7 @@ function Mentions() {
                     <p>
                         Création / Conception / Développement : <br/>
                         Nom entreprise : Coding Corp <br/>
-                        Tél. : numéro <br/> 
+                        SIRET :  <br/> 
                         Email : mohamed.ebarhmatin@gmail.com <br/>
                         Web : www.codingcorp.fr <br/>
                         Hébergement : Hostinger
