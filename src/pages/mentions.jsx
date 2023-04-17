@@ -110,7 +110,7 @@ function Mentions() {
                         Siège social : 42 Rue du Rouet 34300 Agde - Tél.: 04 30 41 84 90 <br/>
                         Email: contact@association-prestatair.com <br/>
                         Entreprise/ Association créée en 2019– code 8810A - Convention 3127 - SIRET : 85290414300025 <br/>
-                        Directeur de la publication : nom, fonction et entreprise <br/>
+                        {/* Directeur de la publication : nom, fonction et entreprise <br/> */}
                         Toute reproduction même partielle est interdite sans autorisation préalable.
                     </p> 
                   </div>
@@ -119,10 +119,10 @@ function Mentions() {
                     <p>
                         Création / Conception / Développement : <br/>
                         Nom entreprise : Coding Corp <br/>
-                        SIRET :  <br/> 
+                        SIRET : en cours d'immatriculation <br/> 
                         Email : mohamed.ebarhmatin@gmail.com <br/>
-                        Web : www.codingcorp.fr <br/>
-                        Hébergement : Hostinger
+                        Web : https://mohamedehn.github.io/portfolio <br/>
+                        Hébergement : OVH
                     </p>
                   </div>
                   <div>
