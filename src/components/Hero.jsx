@@ -8,7 +8,7 @@ import animation from "../animations/75353-cleaner-blue-shirt.json"
 import logo from "../assets/logoNew.png"
 
 const navigation = [
-  { name: 'Acceuil', href: '#acceuil' },
+  { name: 'Accueil', href: '#accueil' },
   { name: 'Qui sommes-nous ?', href: '#presentation' },
   { name: 'Notre équipe', href: '#team' },
   { name: 'Nos prestations', href: '#activities' },

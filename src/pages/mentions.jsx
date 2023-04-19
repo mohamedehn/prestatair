@@ -107,7 +107,7 @@ function Mentions() {
                     <p className='text-gray-900 font-semibold pt-10'>1 - PROPRIÉTÉ</p> 
                     <p>
                         Le présent site est la propriété de L’association Prestat’air <br/>
-                        Siège social : 42 Rue du Rouet 34300 Agde - Tél.: 04 30 41 84 90 <br/>
+                        Siège social : 42 Rue du Rouet 34300 Agde - Tél : 04 30 41 84 90 <br/>
                         Email: contact@association-prestatair.com <br/>
                         Entreprise/ Association créée en 2019– code 8810A - Convention 3127 - SIRET : 85290414300025 <br/>
                         {/* Directeur de la publication : nom, fonction et entreprise <br/> */}
@@ -136,7 +136,7 @@ function Mentions() {
                     <p>
                         L’association Prestat’air est responsable de traitement au sens du Règlement (UE) 2016/679 dit Règlement Général pour 
                         la Protection des Données ou « RGPD », pour la collecte et le traitement des données à caractère personnel effectuées 
-                        sur le site accessible à l’adresse URL : https://www.nom entreprise.fr 
+                        sur le site accessible à l’adresse URL:<br/> https://www.association-prestatair.com/ 
                     </p>
                     <p>L’association Prestat’air traite les données personnelles collectées via son site pour les finalités suivantes :</p>
                     <p>
