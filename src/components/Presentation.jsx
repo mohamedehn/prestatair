@@ -3,7 +3,7 @@ export default function Presentation() {
     return (
       <div className="overflow-hidden bg-[#adccd0]  py-16 px-6 lg:px-8 xl:py-36" id="presentation">
         <div className="max-w-prose text-base lg:max-w-none sm:pb-[65px]">
-              <h2 className="font-semibold leading-6 text-gray-900">Une qualité de service reconnu !</h2>
+              <h2 className="font-semibold leading-6 text-gray-900">Une qualité de service reconnue !</h2>
               <p className="py-4 mt-2 text-3xl font-bold leading-8 tracking-tight text-[#225a65] sm:text-4xl">
                 Présentation de notre structure
               </p>
@@ -72,7 +72,7 @@ export default function Presentation() {
                 </div>
                 <div className="prose prose-lg prose-indigo text-gray-500 lg:max-w-none sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 
                 md:text-xl lg:mx-0 text-justify">
-                  <p> Nous avons la particularité d'être organisé de façon centralisée et nous collaborons avec près de 6500 intervenants sur 
+                  <p> Nous avons la particularité d'être organisés de façon centralisée et nous collaborons avec près de 6500 intervenants sur 
                     l'ensemble du territoire français.
                   </p>
                 </div>
