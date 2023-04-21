@@ -9,6 +9,8 @@ import DisplayActivities from './components/DisplayActivities';
 import Team from './components/Team';
 import DataDisplay from './components/Counter';
 import { useEffect } from 'react';
+import React from 'react';
+
 
 function App() {
 

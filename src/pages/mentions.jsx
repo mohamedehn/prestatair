@@ -1,10 +1,11 @@
-import {React, Fragment} from 'react'
+import {Fragment} from 'react'
 import { NavLink } from 'react-router-dom'
 import ScrollToTop from '../components/ScrollToTop'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from "../assets/logoNew.png"
 import { useEffect } from 'react'
+import React from 'react';
 
 const navigation = [
     { name: 'Acceuil', href: '/' },
@@ -136,7 +137,7 @@ function Mentions() {
                     <p>
                         L’association Prestat’air est responsable de traitement au sens du Règlement (UE) 2016/679 dit Règlement Général pour 
                         la Protection des Données ou « RGPD », pour la collecte et le traitement des données à caractère personnel effectuées 
-                        sur le site accessible à l’adresse URL:<br/> https://www.association-prestatair.com/ 
+                        sur le site accessible à l’adresse <br/> URL: https://www.association-prestatair.com/ 
                     </p>
                     <p>L’association Prestat’air traite les données personnelles collectées via son site pour les finalités suivantes :</p>
                     <p>

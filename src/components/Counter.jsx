@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import React from 'react';
 
 const Counter = ({ start, end, duration }) => {
   const [count, setCount] = useState(0);

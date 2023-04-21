@@ -6,6 +6,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Lottie from 'react-lottie'
 import animation from "../animations/75353-cleaner-blue-shirt.json"
 import logo from "../assets/logoNew.png"
+import React from 'react'
 
 const navigation = [
   { name: 'Accueil', href: '#accueil' },
@@ -124,7 +125,7 @@ export default function Hero () {
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0 text-justify">
                 L’association Prestat’air, spécialisée dans les services à la personne, est disponible pour répondre aux besoins de ses clients, 
-                ainsi qu’à ceux de ses aides à domicile. Notre structure, basée à Agde, intervient, pour vous, sur tout le territoire national.
+                ainsi qu’à ceux de ses aides à domicile.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">

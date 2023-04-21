@@ -1,6 +1,6 @@
 // file where I put the image carousel for the company activities.
 // Carousel is made with react bootstrap
-
+import React from 'react';
 import dog from "../assets/carousel/dog.jpg"
 import garden from "../assets/carousel/garden.jpg"
 // import hammer from "../assets/carousel/hammer.jpg"

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import React from "react"
 
 export default function Footer (){
 
@@ -17,7 +18,7 @@ export default function Footer (){
         <footer className="text-gray-500 bg-[#adccd0] px-4 py-5 max-w-screen-xl mx-auto">
             <div className="mt-8 items-center justify-between sm:flex">
                 <ul className="mt-4 sm:mt-0">
-                    &copy; 2023 Prestat'air Tout droit réservé.
+                    &copy; 2023 Prestat'air Tous droits réservés.
                 </ul>
                 
                 <ul className="mt-4 items-center justify-center space-y-5 sm:flex sm:space-x-4 sm:space-y-0 text-gray-500">
@@ -35,13 +36,13 @@ export default function Footer (){
                     </li>
                 </ul>
             </div>
-            <style jsx="true">{`
+            {/* <style jsx="true">{`
                 .svg-icon path,
                 .svg-icon polygon,
                 .svg-icon rect {
                     fill: currentColor;
                 }
-            `}</style>
+            `}</style> */}
         </footer>
     )
 }

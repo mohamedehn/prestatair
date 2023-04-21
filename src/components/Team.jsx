@@ -1,4 +1,5 @@
 //this file will contain all the team's company. I use a const name "people" to include tha data and display it with a map
+import React from 'react';
 import anita from "../assets/team/anita.png"
 import alisee from "../assets/team/alisee.png"
 import julie from "../assets/team/julie.png"

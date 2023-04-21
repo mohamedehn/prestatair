@@ -1,6 +1,6 @@
 // in this file i'm going to set a form to collecte informations
 
-
+import React from 'react';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 
@@ -136,7 +136,7 @@ export default function Form() {
               </dl>
               <div>
               <div className="map-container-2 w-full">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11612.31904646705!2d3.4713674!3d43.3125897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba1b5dd76e905%3A0xec564c6f35ee459c!2sPRESTAT&#39;AIR!5e0!3m2!1sfr!2sfr!4v1676047078034!5m2!1sfr!2sfr" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="adress" className="border-0 w-full"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11612.31904646705!2d3.4713674!3d43.3125897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ba1b5dd76e905%3A0xec564c6f35ee459c!2sPRESTAT&#39;AIR!5e0!3m2!1sfr!2sfr!4v1676047078034!5m2!1sfr!2sfr" width="600" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="adress" className="border-0 w-full"></iframe>
           </div>
               </div>
               {/* Code below is in order to put some icons like FB or Twitter and to put link on it
