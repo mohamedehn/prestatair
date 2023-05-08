@@ -10,6 +10,7 @@ import Team from './components/Team';
 import DataDisplay from './components/Counter';
 import { useEffect } from 'react';
 import React from 'react';
+import PopUpCookies from './components/PopUpCookies';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="App bg-[#adccd0] overflow-hidden">
       <Hero/>
+      <PopUpCookies/>
       <Presentation/>
       <Team/>
       <DataDisplay/>
