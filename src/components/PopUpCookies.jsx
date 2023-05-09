@@ -17,6 +17,7 @@ const PopUpCookies = () => {
   const handleAccept = () => {
     localStorage.setItem("cookiesAccepted", "true");
     setVisible(false);
+    window.location.reload()
   };
 
 //La méthode handleRefuse() est appelée lorsqu'un utilisateur clique sur le bouton Refuser. 
@@ -24,6 +25,7 @@ const PopUpCookies = () => {
   const handleRefuse = () => {
     localStorage.setItem("cookiesAccepted", "false");
     setVisible(false);
+    window.location.reload()
   };
 
 //Dans le rendu du composant, nous vérifions si la popup doit être affichée en fonction de l'état de visibilité. 

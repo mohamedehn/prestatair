@@ -2,10 +2,30 @@
 
 import React from 'react';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
-
+// import PopUpCookies from './PopUpCookies';
+// import { useState } from 'react';
 
 export default function Form() {
+
+  // les variable ci-dessous permettent de récupérer les cookies et ainsi vérifier si ils sont accepté ou non
+  // on interviendra ensuite sur le bouton envoyer afin de le rendre inactif si les cookies ont été rejetées ou en attente de choix
+  const cookiesAccepted = document.cookie.split(';').find(cookie => cookie.trim().startsWith('cookiesAccepted='));
+  const isCookiesAccepted = cookiesAccepted && cookiesAccepted.split('=')[1] === 'true';
+
+//fonction qui permettra d'afficher un message d'alerte
+  function handleClick() {
+    if (!isCookiesAccepted) {
+      alert("Veuillez accepter les cookies pour continuer.");
+    }
+  }
   
+  // function qui permet de bloquer l'envoi du formulaire, de supprimer les cookies du local storage, de refresh la page + afficher popUpCookies
+  const acceptCookies = (event) => {
+    event.preventDefault();
+    localStorage.removeItem("cookiesAccepted");
+    window.location.reload();
+  };
+
   return (
     <div className="bg-[#adccd0]" id='contact'>
       <div className="mx-auto max-w-7xl py-16 px-6 sm:py-24 lg:px-8">
@@ -144,7 +164,7 @@ export default function Form() {
             {/* Contact form */}
             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-lg font-medium text-gray-900">Ecrivez-nous un message</h3>
-              <form action="https://formsubmit.co/contact@association-prestatair.com" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form action="https://formsubmit.co/contact@association-prestatair.comsssssssss" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                 <div>
                   <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
                     Prénom
@@ -240,14 +260,23 @@ export default function Form() {
                     />
                   </div>
                 </div>
-                <div className="sm:col-span-2 sm:flex sm:justify-end">
+                {isCookiesAccepted ? 
+                  <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
-                    className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-[#225a65] px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-[#9aabb2] focus:outline-none focus:ring-2 focus:ring-[#9aabb2] focus:ring-offset-2 sm:w-auto"
+                    onClick={handleClick}
+                    disabled={!isCookiesAccepted} // permet de vérifier si l'utilisateur à accepté ou non les cookies
+                    className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-[#225a65] 
+                    px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-[#9aabb2] focus:outline-none focus:ring-2 
+                    focus:ring-[#9aabb2] focus:ring-offset-2 sm:w-auto"
                   >
                     Envoyer
-                  </button>
-                </div>
+                  </button> 
+                  </div> :
+                  <div>
+                    <button onClick={acceptCookies}>Merci d'accepter au préalable les cookies en cliquant ici</button>
+                  </div>
+                }     
               </form>
             </div>
           </div>
