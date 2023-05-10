@@ -31,7 +31,7 @@ const PopUpCookies = () => {
 //Dans le rendu du composant, nous vérifions si la popup doit être affichée en fonction de l'état de visibilité. 
 //Si oui, nous affichons le message et les boutons Accepter/Refuser.
   return visible ? (
-    <div className="fixed bottom-0 right-0 left-0 z-50 p-4 text-white bg-[#9aabb2] rounded-3xl w-[60%] m-auto">
+    <div className="fixed bottom-0 right-0 left-0 z-50 p-4 text-white bg-[#9aabb2] rounded-3xl w-[70%] sm:w-[60%] m-auto">
       <p className="text-[#225a65] mt-3 text-base sm:mx-auto sm:mt-5 sm:text-lg md:mt-5 md:text-xl lg:mx-0 text-justify">
         Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site web. En cliquant sur « Accepter », vous acceptez 
         l’utilisation de cookies à usages techniques nécessaires à son bon fonctionnement, ainsi que des cookies, y compris des cookies tiers, 

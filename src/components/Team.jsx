@@ -73,9 +73,9 @@ const people = [
         imageUrl: alyson,
     },
     {
-        name: 'Reynald',
-        role: "Chargé d'assistance",
-        imageUrl: mr,
+        name: 'Laetitia',
+        role: "Chargée d'assistance",
+        imageUrl: alyson,
     },
     {
         name: 'Audrey',

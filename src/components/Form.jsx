@@ -2,8 +2,6 @@
 
 import React from 'react';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
-// import PopUpCookies from './PopUpCookies';
-// import { useState } from 'react';
 
 export default function Form() {
 
@@ -164,7 +162,7 @@ export default function Form() {
             {/* Contact form */}
             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-lg font-medium text-gray-900">Ecrivez-nous un message</h3>
-              <form action="https://formsubmit.co/contact@association-prestatair.comsssssssss" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form action="https://formsubmit.co/contact@association-prestatair.com" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                 <div>
                   <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
                     Prénom
