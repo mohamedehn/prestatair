@@ -8,10 +8,10 @@ export default function Footer (){
             href: '/mentions',
             name: 'Mentions légales'
         },
-        // {
-        //     href: '#contact',
-        //     name: 'Contact'
-        // },
+        {
+            href: '/cookies',
+            name: 'Cookies'
+        },
     ]
 
     return (

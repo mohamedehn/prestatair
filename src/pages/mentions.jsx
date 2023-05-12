@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 import React from 'react';
 
 const navigation = [
-    { name: 'Acceuil', href: '/' },
+    { name: 'Accueil', href: '/' },
     { name: 'Mentions légales', href: '#mentions' },
     { name: 'Politique de confidentialité', href: '#politique' }
   ]
