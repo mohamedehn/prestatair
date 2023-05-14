@@ -1,9 +1,49 @@
 // in this file i'm going to set a form to collecte informations
-
-import React from 'react';
+import React, { useState } from 'react';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
-export default function Form() {
+const Form = () => {
+
+  //on initialise un objet contenant les différentes partis du formulaire afin de les initialiser avec "an empty strings"
+  const formInitialDetails = {
+    firstName : '',
+    lastName : '',
+    email : '',
+    phone : '',
+    subject : '',
+    message : '',
+  };
+  const [formDetails, setFromDetails] = useState(formInitialDetails); 
+  const [buttonText, setButtonText] = useState("Envoyé"); //gestion de l'état du bouton envoyer
+  const [status, setStatus] = useState({});
+
+  const onFormUpdate = (category, value) =>{
+    setFromDetails({
+      ...formDetails,
+      [category] : value,
+    })
+  };
+
+  //function pour envoyer l'email
+  const handleSubmit = async (e) =>{
+    e.preventDefault(); //pour éviter que la page se rafraichisse
+    setButtonText("Sending...")
+    let response = await fetch("/api/contact", {
+      method : "POST",
+      headers : {
+        "Content-Type" : "applications/json;charset=utf-8"
+      },
+      body : JSON.stringify(formDetails) //pour transformer l'objet en strings
+    });
+    let result = await response.json();
+    setButtonText("Envoyé");
+    setFromDetails(formInitialDetails);
+    if (result.code === 200){
+      setStatus({sucess : true, message : "Formulaire envoyé!"})
+    }else {
+      setStatus({succes : false, message : "Un problème est survenue..."})
+    }
+  }
 
   // les variable ci-dessous permettent de récupérer les cookies et ainsi vérifier si ils sont accepté ou non
   // on interviendra ensuite sur le bouton envoyer afin de le rendre inactif si les cookies ont été rejetées ou en attente de choix
@@ -162,7 +202,7 @@ export default function Form() {
             {/* Contact form */}
             <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <h3 className="text-lg font-medium text-gray-900">Ecrivez-nous un message</h3>
-              <form action="https://formsubmit.co/contact@association-prestatair.com" method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+              <form onSubmit={handleSubmit} className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                 <div>
                   <label htmlFor="first-name" className="block text-sm font-medium text-gray-900">
                     Prénom
@@ -170,9 +210,11 @@ export default function Form() {
                   <div className="mt-1">
                     <input
                       type="text"
+                      value={formDetails.firstName}
                       name="first-name"
                       id="first-name"
                       autoComplete="given-name"
+                      onChange={(e) => onFormUpdate("firstName", e.target.value)}
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
                   </div>
@@ -184,9 +226,11 @@ export default function Form() {
                   <div className="mt-1">
                     <input
                       type="text"
+                      value={formDetails.lastName}
                       name="last-name"
                       id="last-name"
                       autoComplete="family-name"
+                      onChange={(e) => onFormUpdate("lastName", e.target.value)}
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
                   </div>
@@ -198,9 +242,11 @@ export default function Form() {
                   <div className="mt-1">
                     <input
                       id="email"
+                      value={formDetails.email}
                       name="email"
                       type="email"
                       autoComplete="email"
+                      onChange={(e) => onFormUpdate("email", e.target.value)}
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
                   </div>
@@ -217,9 +263,11 @@ export default function Form() {
                   <div className="mt-1">
                     <input
                       type="text"
+                      value={formDetails.phone}
                       name="phone"
                       id="phone"
                       autoComplete="tel"
+                      onChange={(e) => onFormUpdate("phone", e.target.value)}
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       aria-describedby="phone-optional"
                     />
@@ -232,8 +280,10 @@ export default function Form() {
                   <div className="mt-1">
                     <input
                       type="text"
+                      value={formDetails.subject}
                       name="subject"
                       id="subject"
+                      onChange={(e) => onFormUpdate("subject", e.target.value)}
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
                   </div>
@@ -250,11 +300,12 @@ export default function Form() {
                   <div className="mt-1">
                     <textarea
                       id="message"
+                      value={formDetails.message}
                       name="message"
                       rows={4}
+                      onChange={(e) => onFormUpdate("message", e.target.value)}
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       aria-describedby="message-max"
-                      defaultValue={''}
                     />
                   </div>
                 </div>
@@ -268,13 +319,20 @@ export default function Form() {
                     px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-[#9aabb2] focus:outline-none focus:ring-2 
                     focus:ring-[#9aabb2] focus:ring-offset-2 sm:w-auto"
                   >
-                    Envoyer
+                    {buttonText}
                   </button> 
                   </div> :
                   <div>
                     <button onClick={acceptCookies}>Merci d'accepter au préalable les cookies en cliquant ici</button>
                   </div>
-                }     
+                }
+                 {status.message && (
+                    <div>
+                      <p className={status.success === false ? "danger" : "success"}>
+                        {status.message}
+                      </p>
+                    </div>
+                  )}
               </form>
             </div>
           </div>
@@ -282,4 +340,6 @@ export default function Form() {
       </div>
     </div>
   )
-}
+};
+
+export default Form;

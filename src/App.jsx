@@ -8,12 +8,18 @@ import ScrollToTop from './components/ScrollToTop';
 import DisplayActivities from './components/DisplayActivities';
 import Team from './components/Team';
 import DataDisplay from './components/Counter';
-import { useEffect } from 'react';
-import React from 'react';
+import React, { useEffect } from 'react';
 import PopUpCookies from './components/PopUpCookies';
 
 
-function App() {
+const App = () => {
+
+  // pour appeler le serveur au chargement de la page et récupérer la response et les données (data)
+  useEffect(() => {
+    fetch("/api")
+    .then((res)=> res.json())
+    .then((data)=> {console.log(data)})
+  },[])
 
   useEffect(()=>{
     window.scrollTo(0,0)
