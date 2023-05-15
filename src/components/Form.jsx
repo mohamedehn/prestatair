@@ -6,12 +6,12 @@ const Form = () => {
 
   //on initialise un objet contenant les différentes partis du formulaire afin de les initialiser avec "an empty strings"
   const formInitialDetails = {
-    firstName : '',
-    lastName : '',
-    email : '',
-    phone : '',
-    subject : '',
-    message : '',
+    firstName : "",
+    lastName : "",
+    email : "",
+    phone : "",
+    subject : "",
+    message : "",
   };
   const [formDetails, setFromDetails] = useState(formInitialDetails); 
   const [buttonText, setButtonText] = useState("Envoyé"); //gestion de l'état du bouton envoyer
@@ -27,11 +27,11 @@ const Form = () => {
   //function pour envoyer l'email
   const handleSubmit = async (e) =>{
     e.preventDefault(); //pour éviter que la page se rafraichisse
-    setButtonText("Sending...")
+    setButtonText("Envoi en cours")
     let response = await fetch("/api/contact", {
       method : "POST",
       headers : {
-        "Content-Type" : "applications/json;charset=utf-8"
+        "Content-Type" : "application/json;charset=utf-8"
       },
       body : JSON.stringify(formDetails) //pour transformer l'objet en strings
     });
@@ -39,9 +39,9 @@ const Form = () => {
     setButtonText("Envoyé");
     setFromDetails(formInitialDetails);
     if (result.code === 200){
-      setStatus({sucess : true, message : "Formulaire envoyé!"})
+      setStatus({success : true, message : "Formulaire envoyé!"})
     }else {
-      setStatus({succes : false, message : "Un problème est survenue..."})
+      setStatus({success : false, message : "Un problème est survenue..."})
     }
   }
 
@@ -321,18 +321,18 @@ const Form = () => {
                   >
                     {buttonText}
                   </button> 
+                  {status.message && (
+                    <div>
+                      <p>
+                        {status.message}
+                      </p>
+                    </div>
+                  )}
                   </div> :
                   <div>
                     <button onClick={acceptCookies}>Merci d'accepter au préalable les cookies en cliquant ici</button>
                   </div>
                 }
-                 {status.message && (
-                    <div>
-                      <p className={status.success === false ? "danger" : "success"}>
-                        {status.message}
-                      </p>
-                    </div>
-                  )}
               </form>
             </div>
           </div>
