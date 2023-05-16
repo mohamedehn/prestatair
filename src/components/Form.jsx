@@ -1,6 +1,8 @@
+// @ts-nocheck
 // in this file i'm going to set a form to collecte informations
 import React, { useState } from 'react';
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { useNavigate } from 'react-router-dom';
 
 const Form = () => {
 
@@ -16,6 +18,7 @@ const Form = () => {
   const [formDetails, setFromDetails] = useState(formInitialDetails); 
   const [buttonText, setButtonText] = useState("Envoyé"); //gestion de l'état du bouton envoyer
   const [status, setStatus] = useState({});
+  const navigate = useNavigate(); // pour rediriger sur la page de confirmation
 
   const onFormUpdate = (category, value) =>{
     setFromDetails({
@@ -39,9 +42,10 @@ const Form = () => {
     setButtonText("Envoyé");
     setFromDetails(formInitialDetails);
     if (result.code === 200){
-      setStatus({success : true, message : "Formulaire envoyé!"})
+      setStatus({success : true, message : "Formulaire envoyé avec succès!"});
+      navigate("/confirmation")
     }else {
-      setStatus({success : false, message : "Un problème est survenue..."})
+      setStatus({danger : false, message : "Un problème est survenue..."})
     }
   }
 
@@ -210,6 +214,7 @@ const Form = () => {
                   <div className="mt-1">
                     <input
                       type="text"
+                      required
                       value={formDetails.firstName}
                       name="first-name"
                       id="first-name"
@@ -226,6 +231,7 @@ const Form = () => {
                   <div className="mt-1">
                     <input
                       type="text"
+                      required
                       value={formDetails.lastName}
                       name="last-name"
                       id="last-name"
@@ -243,6 +249,7 @@ const Form = () => {
                     <input
                       id="email"
                       value={formDetails.email}
+                      required
                       name="email"
                       type="email"
                       autoComplete="email"
@@ -263,6 +270,7 @@ const Form = () => {
                   <div className="mt-1">
                     <input
                       type="text"
+                      required
                       value={formDetails.phone}
                       name="phone"
                       id="phone"
@@ -280,6 +288,7 @@ const Form = () => {
                   <div className="mt-1">
                     <input
                       type="text"
+                      required
                       value={formDetails.subject}
                       name="subject"
                       id="subject"
@@ -300,6 +309,7 @@ const Form = () => {
                   <div className="mt-1">
                     <textarea
                       id="message"
+                      required
                       value={formDetails.message}
                       name="message"
                       rows={4}
@@ -310,7 +320,7 @@ const Form = () => {
                   </div>
                 </div>
                 {isCookiesAccepted ? 
-                  <div className="sm:col-span-2 sm:flex sm:justify-end">
+                  <div className="sm:col-span-2 sm:justify-end block">
                   <button
                     type="submit"
                     onClick={handleClick}
@@ -323,7 +333,7 @@ const Form = () => {
                   </button> 
                   {status.message && (
                     <div>
-                      <p>
+                      <p className={status.success === false ? "danger, text-red-700" : "success, text-green-600"}>
                         {status.message}
                       </p>
                     </div>

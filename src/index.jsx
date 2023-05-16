@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import{BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Mentions from './pages/mentions';
 import Cookies from './pages/cookies';
+import Confirmation from './pages/confirmation';
 
 // @ts-ignore
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
           <Route path="/" element={<App/>}/>
           <Route path="/cookies" element={<Cookies/>}/>
           <Route path="/mentions" element={<Mentions/>}/>
+          <Route path="/confirmation" element={<Confirmation/>}/>
           {/* <Route path="*" element={<Error/>}/> */}
         </Routes>
       </Router>

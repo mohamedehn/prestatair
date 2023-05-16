@@ -11,6 +11,9 @@ const PORT = process.env.PORT || 3001;
 
 //on crée ensuite le serveur et on utilise le cors pour éviter les erreurs de cors
 const app = express();
+
+app.use(express.static(path.resolve(__dirname, '../build')));
+
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -64,7 +67,11 @@ contactEmail.verify((error) =>{
     } else{
         console.log("Ready to send")
     }
-})
+});
+
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../build', 'index.html'));
+  });
 
 //on ajoute un listenner pour être sur que l'app tourne bien
 app.listen(PORT, () =>{
