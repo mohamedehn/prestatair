@@ -78,7 +78,7 @@ const people = [
         imageUrl: alyson,
     },
     {
-        name: 'Audrey',
+        name: 'Katia',
         role: "Chargée d'assistance",
         imageUrl: alyson,
     },
@@ -92,6 +92,11 @@ const people = [
         role: "Chargé d'assistance",
         imageUrl: mr,
     },
+    {
+      name: 'Laurine',
+      role: "Chargée d'assistance",
+      imageUrl: alyson,
+  },
   ]
   
   export default function Team() {

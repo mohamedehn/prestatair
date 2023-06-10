@@ -110,7 +110,7 @@ function Mentions() {
                         Le présent site est la propriété de L’association Prestat’air <br/>
                         Siège social : 42 Rue du Rouet 34300 Agde - Tél : 04 30 41 84 90 <br/>
                         Email: contact@association-prestatair.com <br/>
-                        Entreprise/ Association créée en 2019– code 8810A - Convention 3127 - SIRET : 85290414300025 <br/>
+                        Entreprise/ Association créée en 2019 – code 8810A - Convention 3127 - SIRET : 852 904 143 00025 <br/>
                         {/* Directeur de la publication : nom, fonction et entreprise <br/> */}
                         Toute reproduction même partielle est interdite sans autorisation préalable.
                     </p> 
@@ -120,8 +120,8 @@ function Mentions() {
                     <p>
                         Création / Conception / Développement : <br/>
                         Nom entreprise : Coding Corp <br/>
-                        SIRET : en cours d'immatriculation <br/> 
-                        Email : mohamed.ebarhmatin@gmail.com <br/>
+                        SIRET : 953 263 423 00014<br/> 
+                        Email : contact@codingcorp.fr<br/>
                         Web : https://mohamedehn.github.io/portfolio <br/>
                         Hébergement : OVH
                     </p>
@@ -131,7 +131,7 @@ function Mentions() {
                         POLITIQUE DE CONFIDENTIALITÉ
                     </p>
                     <p>
-                        Les internautes accédant au site www.nomentreprise.fr peuvent être amenés à fournir des informations nominatives ou 
+                        Les internautes accédant au site https://www.association-prestatair.com/ peuvent être amenés à fournir des informations nominatives ou 
                         à caractère personnel dans le cadre des services proposés par l’association Prestat’air.
                     </p>
                     <p>
