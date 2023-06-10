@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const PopUpCookies = () => {
   const [visible, setVisible] = useState(false); //le hook useState permet de gérer l'état de visibilité de notre pop-up de cookies.
@@ -36,7 +37,7 @@ const PopUpCookies = () => {
         Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site web. En cliquant sur « Accepter », vous acceptez 
         l’utilisation de cookies à usages techniques nécessaires à son bon fonctionnement, ainsi que des cookies, y compris des cookies tiers, 
         à des fins statistiques, de publicité ou de personnalisation pour vous proposer des services et des offres adaptés. Pour plus 
-        d'informations, consultez nos <a href="/mentions" className="no-underline text-[#225a65] font-bold">mentions légales</a>.
+        d'informations, consultez nos <NavLink to="/mentions" className="no-underline text-[#225a65] font-bold">mentions légales</NavLink>.
       </p>
       <div className="flex justify-end pt-2">
         <button

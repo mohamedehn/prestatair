@@ -171,6 +171,7 @@ export default function Form() {
                     <input
                       type="text"
                       name="first-name"
+                      required
                       id="first-name"
                       autoComplete="given-name"
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -186,6 +187,7 @@ export default function Form() {
                       type="text"
                       name="last-name"
                       id="last-name"
+                      required
                       autoComplete="family-name"
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
@@ -198,6 +200,7 @@ export default function Form() {
                   <div className="mt-1">
                     <input
                       id="email"
+                      required
                       name="email"
                       type="email"
                       autoComplete="email"
@@ -233,6 +236,7 @@ export default function Form() {
                     <input
                       type="text"
                       name="subject"
+                      required
                       id="subject"
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     />
@@ -251,6 +255,7 @@ export default function Form() {
                     <textarea
                       id="message"
                       name="message"
+                      required
                       rows={4}
                       className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       aria-describedby="message-max"
