@@ -23,8 +23,10 @@ app.get("/api", (req, res) =>{
 
 //crée une instance de nodemailer
 const contactEmail = nodemailer.createTransport({
-    service : 'gmail',
-     auth : {
+    host: 'smtp.mail.ovh.net',
+    port: 587,
+    secure: false,
+    auth : {
          user : process.env.EMAIL_ADDRESS,
          pass : process.env.EMAIL_PASS,
     }
