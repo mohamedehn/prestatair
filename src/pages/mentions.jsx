@@ -122,7 +122,7 @@ function Mentions() {
                         Nom entreprise : Coding Corp <br/>
                         SIRET : 953 263 423 00014<br/> 
                         Email : contact@codingcorp.fr<br/>
-                        Web : https://mohamedehn.github.io/portfolio <br/>
+                        Web : https://www.codingcorp.fr/ <br/>
                         Hébergement : OVH
                     </p>
                   </div>

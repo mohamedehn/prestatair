@@ -32,7 +32,7 @@ export default function Footer (){
                     ))
                 }
                     <li className="hover:text-gray-800 list-none"> 
-                        <a href="https://mohamedehn.github.io/portfolio/" className="no-underline text-gray-500 hover:text-gray-800">Powered by Coding Corp</a>
+                        <a href="https://www.codingcorp.fr/" className="no-underline text-gray-500 hover:text-gray-800">Powered by Coding Corp</a>
                     </li>
                 </ul>
             </div>
