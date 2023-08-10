@@ -16,7 +16,7 @@ const App = () => {
 
   // pour appeler le serveur au chargement de la page et récupérer la response et les données (data)
   useEffect(() => {
-    fetch("/api")
+    fetch("/")
     .then((res)=> res.json())
     .then((data)=> {console.log(data)})
   },[])

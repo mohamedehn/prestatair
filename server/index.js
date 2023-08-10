@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 
 //on définit ensuite sur quel port le serveur sera
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 //on crée ensuite le serveur et on utilise le cors pour éviter les erreurs de cors
 const app = express();
@@ -17,7 +17,7 @@ app.use(express.static(path.resolve(__dirname, '../build')));
 app.use(cors());
 app.use(bodyParser.json());
 
-app.get("/api", (req, res) =>{
+app.get("/", (req, res) =>{
     res.json({ message : "Hello from server!"})
 })
 
@@ -33,7 +33,7 @@ const contactEmail = nodemailer.createTransport({
 });
 
 // pour envoyer les données
-app.post("/api/contact", bodyParser.urlencoded({extended : false}), (req, res) =>{
+app.post("/contact", bodyParser.urlencoded({extended : false}), (req, res) =>{
     const name = req.body.firstName;
     const lastName = req.body.lastName;
     const email = req.body.email;
