@@ -1,12 +1,10 @@
 //this file will contain all the team's company. I use a const name "people" to include tha data and display it with a map
 import React from "react";
 import anita from "../assets/team/anita.png";
-import alisee from "../assets/team/alisee.png";
 import julie from "../assets/team/julie.png";
 import mr from "../assets/team/mr.png";
 import gwen from "../assets/team/gwenaelle.png";
 import julia from "../assets/team/julia.png";
-import mathieu from "../assets/team/mathieu.png";
 import marie from "../assets/team/marie.png";
 import alyson from "../assets/team/alyson.png";
 
@@ -20,11 +18,6 @@ const people = [
     name: "Julie Rodriguez",
     role: "Responsable des Services",
     imageUrl: julie,
-  },
-  {
-    name: "Alisée",
-    role: "Responsable Qualité Conformité",
-    imageUrl: alisee,
   },
   {
     name: "Remy",
@@ -47,14 +40,9 @@ const people = [
     imageUrl: julia,
   },
   {
-    name: "Laetitia L",
+    name: "Laetitia",
     role: "Chargée d'accueil",
     imageUrl: julia,
-  },
-  {
-    name: "Matthieu",
-    role: "Chargé suivi",
-    imageUrl: mathieu,
   },
   {
     name: "Marie-Ange",
@@ -63,28 +51,8 @@ const people = [
   },
   {
     name: "Alyson",
-    role: "Chargée d'assistance",
-    imageUrl: alyson,
-  },
-  {
-    name: "Fanny",
-    role: "Chargée d'assistance",
-    imageUrl: alyson,
-  },
-  {
-    name: "Elise",
-    role: "Chargée d'assistance",
-    imageUrl: alyson,
-  },
-  {
-    name: "Elise",
-    role: "Chargée d'assistance",
-    imageUrl: alyson,
-  },
-  {
-    name: "Myriam",
-    role: "Chargée d'assistance",
-    imageUrl: alyson,
+    role: "Chargée suivi",
+    imageUrl: marie,
   },
   {
     name: "Alexia",
@@ -102,18 +70,23 @@ const people = [
     imageUrl: alyson,
   },
   {
-    name: "Maeva",
+    name: "Laurine",
     role: "Chargée d'assistance",
     imageUrl: alyson,
   },
-  // {
-  //     name: 'Remy',
-  //     role: "Chargé d'assistance",
-  //     imageUrl: mr,
-  // },
   {
-    name: "Laurine",
+    name: "Floriane",
     role: "Chargée d'assistance",
+    imageUrl: alyson,
+  },
+  {
+    name: "Laura",
+    role: "Chargée d'assistance",
+    imageUrl: alyson,
+  },
+  {
+    name: "Manon",
+    role: "Alternante",
     imageUrl: alyson,
   },
 ];
